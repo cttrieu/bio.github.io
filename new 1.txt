@@ -1,0 +1,10 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Portfolio</title>
+</head>
+<body>
+<figure>
+  <img src="****.jpg" alt="****" style="width:100%">
+  <figcaption> Brief explanation of your image............</figcaption>
+</figure>
