@@ -1,0 +1,52 @@
+<!doctype html> 
+<html>
+<head>SVG animation</head>
+<title>animation</title>
+
+<body> 
+	<h1>animation</h1>
+	
+	<h3> circle</h3>
+	<p>lets move the circle</p>
+	
+	<svg>
+		<g>
+		<circle cx='100' cy='100' r='50' stroke='red'
+		fill='yellow'> </circle>
+		<animateMotion path='M 0 0 V 0 H 200 Z' dur='1s' repeatCount='25'/>
+	
+		</g>
+	</svg>
+	<svg>
+		<g>
+			<circle cx='100' cy='100' r='50' stroke='red'
+			fill='green'> </circle>
+			<animateMotion path='M 0 0 V 0 H 200 Z' dur='5s' repeatCount='25'/>
+	
+		</g>
+	</svg>
+	 <h2>moving a shape in a square path</h2>
+	 <svg width='400' height='300'>
+		<g>
+			<rect width='70' height='30' fill='blue' stroke='yellow' stroke-width='2'/>
+			<animateMotion path='M 10 10 H 330 V 200 H 0 Z'
+			dur='1s' repeatCount='indefinite'/>
+	 </g>
+	 </svg>
+	 <svg width='1500' height='1500'>
+		<g>
+		<circle cx='300' cy='300' r='75' stroke='red' fill='yellow'> 
+		</circle>
+		<circle cx='450' cy='300' r='15' stroke='green' fill='blue'>
+		<animateMotion path='M 10 10 H 330 V 200 H 0 Z'
+			dur='1s' repeatCount='indefinite'/>
+		</circle>
+		<circle cx='500' cy='300' r='13' stroke='red' fill='red'>
+		<animateMotion path='M 10 10 H 330 V 200 H 0 Z'
+			dur='1s' repeatCount='indefinite'/>
+		</circle>
+		</g> 
+		
+		
+	
+	</svg>
